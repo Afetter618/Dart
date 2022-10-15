@@ -1,0 +1,13 @@
+void main() {
+  late String name; 
+  final Object number = 15; //declare a variable as final if it's not going to be changed later
+  int? nullValue; //in Dart, any variable is treated as an object (including ints)
+  assert(nullValue == null);
+  for (int i = 1; i < 50; i ++) {
+    print('counter == $i'); //
+    for(int j = 0; j < 10; j++)
+      print('hello $j');
+  }
+  name = 'Aidan';
+  print((name + ' ') * 10);
+}
